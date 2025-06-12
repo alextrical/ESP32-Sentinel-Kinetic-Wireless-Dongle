@@ -1,0 +1,221 @@
+# This KiBot script generates common documentation files for a two layer board design,
+# including PDF schematics, PDF front and back board images, an interactive HTML BOM,
+# JPEG renders of the PCB, and a STEP 3D model. Note that the STEP 3D model generation
+# will throw a ton of warnings and errors but does actually work.
+kibot:
+  version: 1
+  
+outputs:
+  - name: "print_sch"
+    comment: "PDF - print schematic"
+    type: pdf_sch_print
+    dir: "PDFs"
+
+  # - name: "print_front"
+  #   comment: "PDF - front copper and user drawings"
+  #   type: pcb_print
+  #   dir: "PDFs"
+  #   options:
+  #     output: '%f_front_copper-%i.%x'
+  #     pages:
+  #       - layers:
+  #         - layer: F.Cu
+  #         - layer: User.1
+  #         - layer: Edge.Cuts
+
+  # - name: "print_bottom"
+  #   comment: "PDF - back copper and user drawings"
+  #   type: pcb_print
+  #   dir: "PDFs"
+  #   options:
+  #     output: '%f_back_copper-%i.%x'
+  #     pages:
+  #       - layers:
+  #         - layer: B.Cu
+  #         - layer: User.1
+  #         - layer: Edge.Cuts
+
+  # - name: "print_mechanical"
+  #   comment: "SVG - outline and user drawings"
+  #   type: pcb_print
+  #   dir: "PDFs"
+  #   options:
+  #     format: SVG
+  #     output: "%f-outline-%i.%x"
+  #     pages:
+  #       - layers:
+  #         - layer: User.1
+  #         - layer: User.2
+  #         - layer: Edge.Cuts
+  #         - layer: Dwgs.User
+
+  - name: 'bom_html'
+    comment: "Create HTML Bill of Materials"
+    type: bom
+    dir: BoM
+    options:
+      format: HTML
+      html:
+        datasheet_as_link: Datasheet
+        title: 'Bill of Materials'
+        logo: '.github/kibot/logo_370x200.png'
+        highlight_empty: false
+      columns:
+        - Row
+        - References
+        - Quantity Per PCB
+        - field: Value
+          join: ['voltage', 'current', 'power', 'tolerance']
+        - field: Manufacturer
+          name: Manufacturer
+        - field: MPN
+          name: Manf. Part
+        - field: LCSC
+          name: LCSC Part
+        - field: Datasheet
+          name: Datasheet
+        - Footprint
+      normalize_values: true
+
+  # - name: 'print_sch'
+  #   comment: "Schematic PDF"
+  #   type: pdf_sch_print
+  #   dir: Schematic
+
+  - name: pcb_top_g
+    comment: "Renders - top (green)"
+    type: pcbdraw
+    dir: "Renders"
+    options:
+      output: "%f-green-%i.%x"
+      format: png
+      show_components: none
+      dpi: 600
+
+  - name: pcb_top_b
+    comment: "Renders - top (black)"
+    type: pcbdraw
+    dir: "Renders"
+    options:
+      output: "%f-black-%i.%x"
+      format: png
+      style:
+        board: "#00060a"
+        copper: "#001421"
+        silk: "#d5dce4"
+        pads: "#cfb96e"
+        clad: "#72786c"
+        outline: "#000000"
+        vcut: "#bf2600"
+        highlight_on_top: false
+        highlight_style: "stroke:none;fill:#ff0000;opacity:0.5;"
+        highlight_padding: 1.5
+      libs:
+       - footprints
+       - ../footprints
+       - ../../footprints/Connector_FX23.pretty
+       - footprints/Connector_FX23.pretty
+       - ../footprints/Connector_FX23.pretty
+       - ../../footprints/Connector_FX23.pretty
+      #  - default
+      #  - eagle-default
+      # remap:
+      #   L_G1: "LEDs:LED-5MM_green"
+      #   L_B1: "LEDs:LED-5MM_blue"
+      #   L_Y1: "LEDs:LED-5MM_yellow"
+      #   'REF**': "dummy:dummy"
+      #   G***: "dummy:dummy"
+      #   svg2mod: "dummy:dummy"
+      #   JP1: "dummy:dummy"
+      #   JP2: "dummy:dummy"
+      #   JP3: "dummy:dummy"
+      #   JP4: "dummy:dummy"
+      # remap_components:
+      #   - ref: PHOTO1
+      #     lib: yaqwsx
+      #     comp: R_PHOTO_7mm
+      #   - reference: J8
+      #     library: yaqwsx
+      #     component: Pin_Header_Straight_1x02_circle
+      no_drillholes: False
+      mirror: False
+      # highlight:
+      #   - L_G1
+      #   - L_B1
+      #   - R10
+      #   - RV1
+      show_components: all
+      vcuts: True
+      warnings: visible
+      dpi: 600
+      # margin:
+      #   left: 5
+      #   right: 1
+      #   top: 0
+      #   bottom: 6
+      # outline_width: 3
+      # show_solderpaste: false
+      # resistor_remap:
+      #   - ref: R1
+      #     val: 10K
+      #   - ref: R2
+      #     val: 4k7
+      # resistor_flip: "R2"
+      size_detection: svg_paths
+      # size_detection: kicad_all
+      # size_detection: kicad_edge
+
+  - name: pcb_bot_g
+    comment: "Renders - bottom (green)"
+    type: pcbdraw
+    dir: "Renders"
+    options:
+      output: "%f-green-%i.%x"
+      format: png
+      bottom: True
+      show_components: none
+      dpi: 600
+
+  - name: pcb_top_pop_b
+    comment: "Renders - top pupulated (green)"
+    type: pcbdraw
+    dir: "Renders"
+    options:
+      output: "%f-green-populated-%i.%x"
+      format: png
+      show_components: all
+      dpi: 600
+      # style:
+      #   board: '#191919'
+      #   copper: '#20ec0c'
+
+  - name: pcb_bot_pop_g
+    comment: "Renders - bottom populated (green)"
+    type: pcbdraw
+    dir: "Renders"
+    options:
+      output: "%f-green-populated-%i.%x"
+      format: png
+      bottom: True
+      show_components: all
+      dpi: 600
+
+  - name: step
+    comment: "Renders - 3D model (STEP)"
+    type: export_3d
+    dir: "Model"
+    # options:
+    #   units: 'millimeters'
+    #   origin: 'grid'
+
+  - name: Documentation
+    comment: "Add all documents to a archive"
+    type: compress
+    options:
+      format: ZIP
+      output: '%f-%i%I%v.%x'
+      # output: '%i%I%v.%x'
+      files:
+        - source: ./**
+          # from_cwd: true
+          # dest: source

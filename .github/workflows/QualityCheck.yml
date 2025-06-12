@@ -1,0 +1,83 @@
+# This workflow runs erc and drc checks on every pull request that touches a scehmatic or PCB file.
+
+name: "KiBot - Quality Check"
+
+# Controls when the action will run.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - ".github/kibot/preflight.kibot.yaml"
+      - ".github/workflows/QualityCheck.yml"
+  pull_request:
+    paths:
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - ".github/kibot/preflight.kibot.yaml"
+      - ".github/workflows/QualityCheck.yml"
+
+env:
+  # Set this to your local timezone. See https://www.wikiwand.com/en/List_of_tz_database_time_zones for valid strings.
+  Timezone: America/New_York
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  KiBOT_ERC_DRC:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad9_auto:latest  # Don't Change, except if needing older version of KiCad.
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # - name: Set variables in files
+    #   id: SetOutputStrings
+    #   uses: ./.github/actions/setOutputStrings #relative
+    # # - uses: my-org/my-repo/.github/actions/setOutputStrings@main #absolute
+
+    # Start of the KiBot steps
+    - name: Run ERC
+      continue-on-error: true
+      run: |
+        kibot \
+        --out-dir GeneratedERC \
+        --schematic "${{ github.event.repository.name }}.kicad_sch" \
+        --board-file "${{ github.event.repository.name }}.kicad_pcb" \
+        --plot-config ".github/kibot/preflight.kibot.yaml" \
+        --skip-pre drc \
+        --invert-sel
+
+    - name: Retrieve results
+      if: always() 
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }}_ERC_Output
+        path: GeneratedERC
+        if-no-files-found: error
+
+    - name: Run DRC
+      continue-on-error: true
+      run: |
+        kibot \
+        --out-dir GeneratedDRC \
+        --schematic "${{ github.event.repository.name }}.kicad_sch" \
+        --board-file "${{ github.event.repository.name }}.kicad_pcb" \
+        --plot-config .github/kibot/preflight.kibot.yaml \
+        --skip-pre erc \
+        --invert-sel
+
+    - name: Retrieve results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }}_DRC_Output
+        path: GeneratedDRC
+        if-no-files-found: error
+
+    - name: Check for test failures
+      run: |
+        if grep -q "FAILED" test-results.log; then
+          echo "Tests failed"
+          exit 1
+        fi

@@ -1,0 +1,249 @@
+# Gerber and drill files for UcreatePCB, with stencil (solder paste)
+# URL: https://www.UcreatePCB.com
+# Based on setting used by Gerber Zipper (https://github.com/g200kg/kicad-gerberzipper)
+kibot:
+  version: 1
+
+filters:
+  - name: only_jlc_parts
+    comment: 'Only parts with JLC (LCSC) code'
+    type: generic
+    include_only:
+      - column: _field_lcsc_part
+        regex: '^C\d+'
+
+  # # Used to remove extra stuff added by KiKit for the panel
+  # # If you need to keep them just specify a different filter matching only the thing you want
+  # - name: _remove_extra
+  #   comment: 'Remove KiKit auxiliary stuff'
+  #   type: generic
+  #   exclude_any:
+  #     - column: References
+  #       regex: "^KiKit_"
+
+groups:
+  - name: _UcreatePCB_fab@_KIBOT_IMPORT_ID@
+    outputs:
+      - _UcreatePCB_gerbers@_KIBOT_IMPORT_ID@
+      - _UcreatePCB_drill@_KIBOT_IMPORT_ID@
+  - name: _UcreatePCB_assembly@_KIBOT_IMPORT_ID@
+    outputs:
+      - _UcreatePCB_position@_KIBOT_IMPORT_ID@
+      - _UcreatePCB_bom@_KIBOT_IMPORT_ID@
+  - name: _UcreatePCB@_KIBOT_IMPORT_ID@
+    outputs:
+      - _UcreatePCB_fab@_KIBOT_IMPORT_ID@
+      - _UcreatePCB_assembly@_KIBOT_IMPORT_ID@
+
+outputs:
+  - name: _UcreatePCB_gerbers@_KIBOT_IMPORT_ID@
+    comment: Gerbers compatible with UcreatePCB
+    type: gerber
+    dir: @_KIBOT_MANF_DIR@
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      # plot_sheet_reference: false
+      plot_footprint_refs: @_KIBOT_PLOT_FOOTPRINT_REFS@
+      plot_footprint_values: @_KIBOT_PLOT_FOOTPRINT_VALUES@
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      disable_aperture_macros: true
+      # edge_cut_extension: .BoardEdgeRout.txt
+      output: "%i.%x" #"%f-%i%I%v.%x"
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      # subtract_mask_from_silk: false
+      # inner_extension_pattern: '.gl%N' #The replacement pattern can contain %n for the inner layer number and %N for the layer number. 
+      # inner_extension_pattern: '.g%n'
+    layers:
+      @_KIBOT_GERBER_LAYERS@
+      @_KIBOT_F_PASTE@
+      @_KIBOT_B_PASTE@
+
+  # - name: _UcreatePCB_EdgeCut_gerber@_KIBOT_IMPORT_ID@
+  #   comment: Edge Cut Gerber compatible with UcreatePCB
+  #   type: gerber
+  #   dir: @_KIBOT_MANF_DIR@
+  #   options:
+  #     exclude_edge_layer: true
+  #     exclude_pads_from_silkscreen: true
+  #     # plot_sheet_reference: false
+  #     plot_footprint_refs: @_KIBOT_PLOT_FOOTPRINT_REFS@
+  #     plot_footprint_values: @_KIBOT_PLOT_FOOTPRINT_VALUES@
+  #     force_plot_invisible_refs_vals: false
+  #     tent_vias: true
+  #     # use_protel_extensions: true
+  #     create_gerber_job_file: false
+  #     disable_aperture_macros: true
+  #     # output: "%f-%i%I%v.%x"
+  #     output: "%i.%x"
+  #     gerber_precision: 4.6
+  #     use_gerber_x2_attributes: false
+  #     use_gerber_net_attributes: false
+  #     line_width: 0.1
+  #     # subtract_mask_from_silk: false
+  #     # inner_extension_pattern: '.gl%N' #The replacement pattern can contain %n for the inner layer number and %N for the layer number. 
+  #     # inner_extension_pattern: '.g%n'
+  #   layers:
+  #     - Edge.Cuts
+
+  - name: _UcreatePCB_drill@_KIBOT_IMPORT_ID@
+    comment: Drill files compatible with UcreatePCB
+    type: excellon
+    dir: @_KIBOT_MANF_DIR@
+    options:
+      # pth_and_npth_single_file: true
+      # generate_drill_files: false
+      map: 
+        type: gerber
+        output: '%i%I%v.gd1'
+      # pth_id: '' #'-PTH'
+      # npth_id: '-NPTH'
+      metric_units: true #false
+      # minimal_header: true
+      # zeros_format: SUPPRESS_LEADING
+      # left_digits: 3
+      # right_digits: 3
+      # See https://github.com/INTI-CMNB/kicad-ci-test-spora/issues/1
+      # and https://docs.oshpark.com/design-tools/gerbv/fix-drill-format/
+      # left_digits: 2
+      # right_digits: 4
+      # route_mode_for_oval_holes: false
+      output: "%i%I%v.%x"
+
+  - name: _UcreatePCB_position@_KIBOT_IMPORT_ID@
+    comment: "Pick and place file"
+    type: position
+    dir: @_KIBOT_MANF_DIR@
+    run_by_default: @_KIBOT_POS_ENABLED@
+    options:
+      # pre_transform: @_KIBOT_POS_PRE_TRANSFORM@
+      # dnf_filter: @_KIBOT_POS_DNF_FILTER@
+      output: 'PickAndPlace file.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: @_KIBOT_POS_ONLY_SMD@
+      columns:
+        - id: Ref
+          name: Designator
+        - id: Val
+          name: Device
+        - id: Package
+          name: Footprint
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+
+  - name: _UcreatePCB_bom@_KIBOT_IMPORT_ID@
+    comment: "BoM for UcreatePCB"
+    type: bom
+    dir: @_KIBOT_MANF_DIR@
+    run_by_default: @_KIBOT_BOM_ENABLED@
+    options:
+      format: CSV
+      output: 'BOM_%f.%x'
+      group_fields: 
+        - 'part'
+        - 'part lib'
+        - 'value'
+        - 'footprint'
+        - 'footprint lib'
+        - 'voltage'
+        - 'tolerance'
+        - 'current'
+        - 'power'
+      exclude_filter: 'only_jlc_parts'
+      ref_separator: ','
+      columns:
+        - field: row
+          name: No.
+        - Quantity Per PCB
+        - Build Quantity
+        - ${QUANTITY}
+        - field: Description
+          name: Comment
+        - field: References
+          name: Designator
+        - Footprint
+        - Value
+        - field: MPN
+          name: Manufacturer Part
+        - Manufacturer
+        - field: _field_lcsc_part
+          name: 'LCSC Part #'
+        - Datasheet
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: _UcreatePCB_schematic@_KIBOT_IMPORT_ID@
+    comment: "PDF - print schematic"
+    type: pdf_sch_print
+    dir: @_KIBOT_MANF_DIR@
+    options:
+      output: 'Assembly drawing with Designator info.%x'
+
+  - name: _UcreatePCB_compress@_KIBOT_IMPORT_ID@
+    comment: ZIP file for UcreatePCB
+    type: compress
+    dir: @_KIBOT_MANF_DIR_COMP@
+    options:
+      output: '%f-UcreatePCB%I%v.%x'
+      format: ZIP
+      move_files: @_KIBOT_COMPRESS_MOVE@
+      files:
+        - from_output: _UcreatePCB_gerbers@_KIBOT_IMPORT_ID@
+          dest: /
+        - from_output: _UcreatePCB_drill@_KIBOT_IMPORT_ID@
+          dest: /
+        - from_output: _UcreatePCB_bom@_KIBOT_IMPORT_ID@
+          dest: /Assembly
+        - from_output: _UcreatePCB_position@_KIBOT_IMPORT_ID@
+          dest: /Assembly
+        - from_output: _UcreatePCB_schematic@_KIBOT_IMPORT_ID@
+          dest: /Assembly
+        - source: ./*.png
+          # from_cwd: true
+          dest: /Assembly
+        - source: Manufacturing Notes/*
+          from_cwd: true
+          dest: /Assembly
+
+
+...
+definitions:
+  _KIBOT_POS_ONLY_SMD: true
+  _KIBOT_F_PASTE: ''
+  _KIBOT_B_PASTE: ''
+  _KIBOT_IMPORT_ID: ''
+  _KIBOT_IMPORT_DIR: 'UcreatePCB'
+  _KIBOT_MANF_DIR: '@_KIBOT_IMPORT_DIR@'
+  _KIBOT_MANF_DIR_COMP: '@_KIBOT_IMPORT_DIR@'
+  # _KIBOT_POS_PRE_TRANSFORM: _rot_footprint_jlcpcb
+  _KIBOT_POS_DNF_FILTER: _remove_extra
+  _KIBOT_POS_ENABLED: true
+  _KIBOT_BOM_ENABLED: true
+  _KIBOT_PLOT_FOOTPRINT_REFS: true
+  _KIBOT_PLOT_FOOTPRINT_VALUES: true
+  _KIBOT_COMPRESS_MOVE: true
+  _KIBOT_GERBER_LAYERS: |
+      - copper
+            - F.SilkS
+            - B.SilkS
+            - F.Mask
+            - B.Mask
+            - F.Paste
+            - B.Paste
+            - Edge.Cuts

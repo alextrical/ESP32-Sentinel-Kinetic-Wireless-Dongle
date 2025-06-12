@@ -1,0 +1,24 @@
+# This script is called by the .github/workflows/QualityCheck.yml workflow to check ERC and DRC.
+kibot:
+  version: 1
+
+globals:
+  # This will undo the `set_text_variables` when we run it locally
+  restore_project: true
+  # We will use a value externally formatted
+  time_reformat: false
+
+preflight:
+  check_zone_fills: true
+  erc:
+    enabled: true #Enable the check.
+    dont_stop: true #Continue even if we detect errors.
+    format: HTML
+  drc:
+    enabled: true #Enable the check.
+    dont_stop: true #Continue even if we detect errors.
+    # Filters for ERC/DRC errors/warnings #This will likeley be unique per project
+    filters: #Used to manipulate the violations. Avoid using the *filters* preflight.
+      - filter: 'We know the 40pin overlaps with the Courtyards of the mounting hole'
+        error: 'courtyards_overlap'
+        regex: 'Footprint J3'

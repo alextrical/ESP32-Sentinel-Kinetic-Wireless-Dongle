@@ -1,0 +1,79 @@
+name: 'Set Output Strings'
+description: 'Set Output Strings in Schematic and PCB'
+outputs:
+  sha_short:
+    description: "Git Hash"
+    value: ${{ steps.gitHash.outputs.sha_short }}
+  version:
+    description: "Version"
+    value: ${{ env.version }}
+runs:
+  using: "composite"
+  steps:
+
+    # Get the version of the GitHub release for use later. This is only valid
+    # when run in a release context
+    - name: Store GitHub release version
+      id: save_github_version
+      run: |
+        echo "VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+        echo "VERSION=${GITHUB_REF#refs/*/}"
+      #  echo "${GITHUB_REF_NAME#v}"
+      if: startsWith(github.ref, 'refs/tags/')
+      shell: bash
+
+    # Get the version from the workflow input. This is only valid
+    # when run manually as a workflow.
+    - name: Store workflow version
+      id: save_workflow_version
+      run: echo "version=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+      if: startsWith(github.ref, 'refs/tags/') == false
+      shell: bash
+
+    # # Get the current date and time, in the timezone specified above, for use later.
+    # - name: Get current date and time
+    #   id: date
+    #   run: echo "date=$(TZ='${{ env.Timezone }}' date +'%F')" >> $GITHUB_OUTPUT
+    #   shell: bash
+
+    # Get the current GitHash
+    - name: Set outputs
+      id: gitHash
+      run: |
+        if [${{ github.event.pull_request.head.sha }} == ""]; then
+          echo "sha_short=$(git rev-parse --short HEAD)" | tr a-z A-Z >> $GITHUB_OUTPUT
+        else
+          echo "sha_short=$(git rev-parse --short ${{ github.event.pull_request.head.sha }})" | tr a-z A-Z >> $GITHUB_OUTPUT
+        fi
+      shell: bash
+
+    # # Do a string replacement in all files to set the version, date and GitHash.
+    # # Any instance of %%version%% in any file gets replaced with the release version.
+    # # Any instance of %%date%% in any file gets replaced with the release date and time.
+    # - name: Set schematic version
+    #   uses: jacobtomlinson/gha-find-replace@v3
+    #   with:
+    #     find: "%%version%%"
+    #     replace: ${{ env.version }}
+    
+    # - name: Replace date in files
+    #   run: find . -type f -name "*.kicad_sch" -o -name "*.kicad_pcb" | xargs sed -i "s/%%date%%/${{ steps.date.outputs.date }}/g"
+    #   shell: bash
+
+    # - name: Set schematic date
+    #   uses: jacobtomlinson/gha-find-replace@v3
+    #   with:
+    #     find: "%%date%%"
+    #     replace: ${{ steps.date.outputs.date }}
+
+    # - name: Set schematic Title
+    #   uses: jacobtomlinson/gha-find-replace@v3
+    #   with:
+    #     find: "%%title%%"
+    #     replace: ${{ github.event.repository.name }}
+
+    # - name: Set schematic githash
+    #   uses: jacobtomlinson/gha-find-replace@v3
+    #   with:
+    #     find: "%%GITHASH%%"
+    #     replace: ${{ steps.gitHash.outputs.sha_short }}

@@ -1,0 +1,163 @@
+# Gerber and drill files for JLCPCB, without stencil
+# URL: https://jlcpcb.com/
+# Based on setting used by Gerber Zipper (https://github.com/g200kg/kicad-gerberzipper)
+kibot:
+  version: 1
+
+filters:
+  - name: _only_jlc_parts
+    comment: 'Only parts with JLC (LCSC) code'
+    type: generic
+    include_only:
+      - column: _field_lcsc_part
+        regex: '^C\d+'
+
+  # Used to remove extra stuff added by KiKit for the panel
+  # If you need to keep them just specify a different filter matching only the thing you want
+  - name: _remove_extra
+    comment: 'Remove KiKit auxiliary stuff'
+    type: generic
+    exclude_any:
+      - column: References
+        regex: "^KiKit_"
+
+groups:
+  - name: _JLCPCB_fab@_KIBOT_IMPORT_ID@
+    outputs:
+      - _JLCPCB_gerbers@_KIBOT_IMPORT_ID@
+      - _JLCPCB_drill@_KIBOT_IMPORT_ID@
+  - name: _JLCPCB_assembly@_KIBOT_IMPORT_ID@
+    outputs:
+      - _JLCPCB_position@_KIBOT_IMPORT_ID@
+      - _JLCPCB_bom@_KIBOT_IMPORT_ID@
+  - name: _JLCPCB@_KIBOT_IMPORT_ID@
+    outputs:
+      - _JLCPCB_fab@_KIBOT_IMPORT_ID@
+      - _JLCPCB_assembly@_KIBOT_IMPORT_ID@
+
+outputs:
+  - name: _JLCPCB_gerbers@_KIBOT_IMPORT_ID@
+    comment: Gerbers compatible with JLCPCB
+    type: gerber
+    dir: @_KIBOT_MANF_DIR@
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: @_KIBOT_PLOT_FOOTPRINT_REFS@
+      plot_footprint_values: @_KIBOT_PLOT_FOOTPRINT_VALUES@
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      disable_aperture_macros: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      subtract_mask_from_silk: true
+      inner_extension_pattern: '.g%n'
+    layers:
+      @_KIBOT_GERBER_LAYERS@
+      @_KIBOT_F_PASTE@
+      @_KIBOT_B_PASTE@
+
+  - name: _JLCPCB_drill@_KIBOT_IMPORT_ID@
+    comment: Drill files compatible with JLCPCB
+    type: excellon
+    dir: @_KIBOT_MANF_DIR@
+    options:
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      metric_units: true
+      map: gerber
+      route_mode_for_oval_holes: false
+      output: "%f%i.%x"
+
+  - name: _JLCPCB_position@_KIBOT_IMPORT_ID@
+    comment: "Pick and place file, JLCPCB style"
+    type: position
+    dir: @_KIBOT_MANF_DIR@
+    run_by_default: @_KIBOT_POS_ENABLED@
+    options:
+      pre_transform: @_KIBOT_POS_PRE_TRANSFORM@
+      dnf_filter: @_KIBOT_POS_DNF_FILTER@
+      output: '%f_cpl_jlc.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: @_KIBOT_POS_ONLY_SMD@
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+
+  - name: _JLCPCB_bom@_KIBOT_IMPORT_ID@
+    comment: "BoM for JLCPCB"
+    type: bom
+    dir: @_KIBOT_MANF_DIR@
+    run_by_default: @_KIBOT_BOM_ENABLED@
+    options:
+      output: '%f_%i_jlc.%x'
+      exclude_filter: '_only_jlc_parts'
+      ref_separator: ','
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - Footprint
+        - field: _field_lcsc_part
+          name: 'LCSC Part #'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: _JLCPCB_compress@_KIBOT_IMPORT_ID@
+    comment: ZIP file for JLCPCB
+    type: compress
+    dir: @_KIBOT_MANF_DIR_COMP@
+    options:
+      # Position and BoM can be disabled
+      skip_not_run: true
+      move_files: @_KIBOT_COMPRESS_MOVE@
+      files:
+        - from_output: _JLCPCB_gerbers@_KIBOT_IMPORT_ID@
+          dest: /
+        - from_output: _JLCPCB_drill@_KIBOT_IMPORT_ID@
+          dest: /
+
+...
+definitions:
+  _KIBOT_POS_ONLY_SMD: true
+  _KIBOT_F_PASTE: ''
+  _KIBOT_B_PASTE: ''
+  _KIBOT_IMPORT_ID: ''
+  _KIBOT_IMPORT_DIR: 'JLCPCB'
+  _KIBOT_MANF_DIR: '@_KIBOT_IMPORT_DIR@'
+  _KIBOT_MANF_DIR_COMP: '@_KIBOT_IMPORT_DIR@'
+  _KIBOT_POS_PRE_TRANSFORM: _rot_footprint_jlcpcb
+  _KIBOT_POS_DNF_FILTER: _remove_extra
+  _KIBOT_POS_ENABLED: true
+  _KIBOT_BOM_ENABLED: true
+  _KIBOT_PLOT_FOOTPRINT_REFS: true
+  _KIBOT_PLOT_FOOTPRINT_VALUES: false
+  _KIBOT_COMPRESS_MOVE: true
+  _KIBOT_GERBER_LAYERS: |
+      - copper
+            - F.SilkS
+            - B.SilkS
+            - F.Mask
+            - B.Mask
+            - Edge.Cuts

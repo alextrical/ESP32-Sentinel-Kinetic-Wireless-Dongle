@@ -1,0 +1,24 @@
+kibot:
+  version: 1
+
+preflight:
+  set_text_variables:
+    - name: version
+      text: "@VERSION@"
+    - name: title
+      command: "basename -s .git `git config --get remote.origin.url`"
+  #   # We use ${git_hash} for the REV field in the worksheet (frame)
+  #   - name: 'git_hash'
+  #     command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+  #     before: 'GH:'
+    - name: git_hash
+      # command: "git rev-parse --short HEAD | tr a-z A-Z"
+      text: "@SHA_SHORT@"
+      before: "GH: "
+  #   # Coherent date and time for the schematic and PCB
+  #   # This will be the time stamp of the files generation, not the commit times
+  #   # We use `${build_date}` for the time field in the worksheet (frame)
+  #   - name: 'build_date'
+  #     command: 'date --iso-8601=minutes'
+    - name: build_date
+      command: "date +%Y-%m-%d"

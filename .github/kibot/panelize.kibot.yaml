@@ -1,0 +1,86 @@
+# This script is called by the .github/workflows/release.yml workflow to generate documentation
+# (PDFs, interactive BOMs, board images) and fabrication files for JLCPCB and PCBWay.
+kibot:
+  version: 1
+
+preflight:
+  # These are off by default so it's possible to generate output files prior to the board being
+  # completely finished (e.g. for draft review, etc.).
+  run_erc: false
+  run_drc: false
+  # This is important to set to true so replacement of version and date strings in the release
+  # build process works correctly.
+  check_zone_fills: true
+
+filters:
+  - name: "exclude_any"
+    type: "generic"
+    comment: "Exclude logos, testpoints, fiducials and power"
+    exclude_any:
+      - column: Reference
+        regex: "^(G|#|TP|F).*"
+        
+import:
+  - file: includes/set-text-variables.kibot.yaml
+
+outputs:
+  - name: panelize@PANEL_ROW@x@PANEL_COL@
+    comment: "Create a @PANEL_ROW@x@PANEL_COL@ panel"
+    type: panelize
+    dir: Panel_@PANEL_ROW@x@PANEL_COL@
+    options:
+      units: mm
+      create_preview: @PANEL_PREV@
+      output: '%f-@PANEL_ROW@x@PANEL_COL@-%i%I%v.%x'
+      configs:
+        - layout:
+            rows: @PANEL_ROW@
+            cols: @PANEL_COL@
+            hspace: 2
+            vspace: 2
+            hbackbone: 3.5
+            rotation: @PANEL_ROT@deg
+          tabs:
+            vwidth: 3
+            hwidth: 3
+            spacing: 40
+          cuts:
+            type: mousebites
+          framing:
+            type: frame
+            mintotalheight: 70mm
+            mintotalwidth: 70mm
+            maxtotalheight: 475mm
+            maxtotalwidth: 475mm
+            fillet: 2mm
+          tooling:
+            type: 3hole
+            hoffset: 10
+            voffset: 2.5
+            soldermaskmargin: 1.3
+          fiducials:
+            type: 3fid
+            hoffset: 20
+            voffset: 4
+            opening: 2
+            paste: true
+          text:
+            type: "simple"
+            text: "Panel for {boardTitle} JLCJLCJLCJLC"
+            anchor: mt
+            voffset: 2.5
+            hjustify: center
+            vjustify: center
+          text2:
+            type: "simple"
+            text: "Created on {date}"
+            anchor: mb
+            voffset: -2.5
+            hjustify: center
+            vjustify: center
+          # page:
+          #   size: A2
+          post:
+            millradiusouter: 1
+            origin: c
+            dimensions: true

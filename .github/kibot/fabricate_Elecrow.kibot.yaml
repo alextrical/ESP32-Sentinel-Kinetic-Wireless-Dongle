@@ -1,0 +1,14 @@
+# This script is called by the .github/workflows/release.yml workflow to create Gerbers for selected Fab houses.
+kibot:
+  version: 1
+
+globals:
+  # This will undo the `set_text_variables` when we run it locally
+  restore_project: true
+  # We will use a value externally formatted
+  time_reformat: false
+
+# This imports the KiBot scripts that actually do all the generation. If you want to
+# generate different things/more things then change these to point to other .kibot.yaml files.
+import:
+  - file: Elecrow_stencil
