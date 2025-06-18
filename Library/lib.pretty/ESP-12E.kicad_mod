@@ -55,26 +55,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -8.12 -12.12)
-		(end 8.12 -12.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c32caffd-1436-4ee3-9804-81ee2f781add")
-	)
-	(fp_line
-		(start -8.12 -4.5)
-		(end -8.12 -12.12)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e8f8e005-36e1-4f12-860f-7f7e3c75d9fa")
-	)
-	(fp_line
 		(start -8.12 12.12)
 		(end -8.12 11.5)
 		(stroke
@@ -93,16 +73,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a58edbde-d2e3-45d0-9b9b-84101b3e8868")
-	)
-	(fp_line
-		(start 8.12 -12.12)
-		(end 8.12 -4.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f23b6ca7-47f1-4608-a82c-e39b25da3b8b")
 	)
 	(fp_line
 		(start 8.12 11.5)
@@ -177,6 +147,26 @@
 		(uuid "0b0f27f1-4eda-401e-997c-f15ca575e282")
 	)
 	(fp_line
+		(start -8.12 -12.12)
+		(end 8.12 -12.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c32caffd-1436-4ee3-9804-81ee2f781add")
+	)
+	(fp_line
+		(start -8.12 -4.5)
+		(end -8.12 -12.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8f8e005-36e1-4f12-860f-7f7e3c75d9fa")
+	)
+	(fp_line
 		(start -8 -12)
 		(end 8 -12)
 		(stroke
@@ -245,6 +235,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "d226df94-6649-43dc-bc99-3a339ccc64dd")
+	)
+	(fp_line
+		(start 8.12 -12.12)
+		(end 8.12 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f23b6ca7-47f1-4608-a82c-e39b25da3b8b")
 	)
 	(fp_text user "Antenna"
 		(at -0.06 -7 180)
@@ -326,6 +326,36 @@
 		(size 2.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4f595340-5aa1-4673-a685-10d94214fb4e")
+	)
+	(pad "10" smd rect
+		(at -3 12)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "993b2268-3755-4904-b9d2-88432cae5648")
+	)
+	(pad "11" smd rect
+		(at -1 12)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9692ac63-3d18-4b49-9e5d-4f3a1b18cced")
+	)
+	(pad "12" smd rect
+		(at 1 12)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e639e35d-6f2e-4724-8474-1c9deddc4c7a")
+	)
+	(pad "13" smd rect
+		(at 3 12)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96b27628-3b69-412a-a80c-faf066614e56")
+	)
+	(pad "14" smd rect
+		(at 5 12)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd61c9fd-725f-47d2-a321-359d0b91663b")
 	)
 	(pad "15" smd rect
 		(at 7.6 10.5)
