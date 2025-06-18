@@ -4903,7 +4903,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "758db322-5e7b-40ec-ac04-befa3741cc8e")
 		)
 		(pad "39" smd rect
 			(at -2.205 -0.91)
@@ -4912,7 +4912,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "a1d948ee-ad59-4fa8-9a36-f1aa08041627")
 		)
 		(pad "39" thru_hole circle
 			(at -2.205 -0.1475)
@@ -4925,7 +4925,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "207ae678-6251-48b9-9c2d-276601840770")
 		)
 		(pad "39" smd rect
 			(at -2.205 0.615)
@@ -4934,7 +4934,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "63458214-64ae-465a-b972-dabb7a14e31b")
 		)
 		(pad "39" thru_hole circle
 			(at -1.4425 -2.435)
@@ -4947,7 +4947,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "60de881f-ba41-4c43-a185-cd12083a8a1c")
 		)
 		(pad "39" thru_hole circle
 			(at -1.4425 -0.91)
@@ -4960,7 +4960,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "6135c69d-b50c-4f9d-b95a-e0fc3a050de0")
 		)
 		(pad "39" thru_hole circle
 			(at -1.4425 0.615)
@@ -4973,7 +4973,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "6b25a46f-a6f4-4246-9828-63307ad3982a")
 		)
 		(pad "39" smd rect
 			(at -0.68 -2.435)
@@ -4982,7 +4982,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "ede4ca97-2d95-4ba9-aab0-a5f363668b9c")
 		)
 		(pad "39" thru_hole circle
 			(at -0.68 -1.6725)
@@ -4995,7 +4995,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "e2894590-3f82-4616-adad-d08bdac7cb90")
 		)
 		(pad "39" smd rect
 			(at -0.68 -0.91)
@@ -5004,7 +5004,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "74b5aad4-f151-4a64-875c-04b41204c178")
 		)
 		(pad "39" smd rect
 			(at -0.68 -0.91)
@@ -5015,7 +5015,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "dc5405db-70fc-4c5c-b81f-65c1dda13c5b")
 		)
 		(pad "39" thru_hole circle
 			(at -0.68 -0.1475)
@@ -5028,7 +5028,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "e991a04d-3aaf-4d21-b80c-04132982da64")
 		)
 		(pad "39" smd rect
 			(at -0.68 0.615)
@@ -5037,7 +5037,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "9837c5a1-c2e4-4e18-8c0c-e536a253b9a9")
 		)
 		(pad "39" thru_hole circle
 			(at 0.0825 -2.435)
@@ -5050,7 +5050,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "aa9c4ab9-1082-451c-a297-fce39d00bd37")
 		)
 		(pad "39" thru_hole circle
 			(at 0.0825 -0.91)
@@ -5063,7 +5063,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "e7527f2a-197e-4437-a62e-38cccdb9e79b")
 		)
 		(pad "39" thru_hole circle
 			(at 0.0825 0.615)
@@ -5076,7 +5076,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "205c0ab8-dea1-4e0c-aa3a-71dfb5f4d226")
 		)
 		(pad "39" smd rect
 			(at 0.845 -2.435)
@@ -5085,7 +5085,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "f8e6def5-071c-4b51-b36d-668a0d24413d")
 		)
 		(pad "39" thru_hole circle
 			(at 0.845 -1.6725)
@@ -5098,7 +5098,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "ea2d7f6a-12a3-4f7f-b971-c446463fe132")
 		)
 		(pad "39" smd rect
 			(at 0.845 -0.91)
@@ -5107,7 +5107,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "92103de9-b7d6-490e-9803-870c1ee9a2e2")
 		)
 		(pad "39" thru_hole circle
 			(at 0.845 -0.1475)
@@ -5120,7 +5120,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "032bf1f2-a9dc-411a-8a95-edb721c68e3a")
 		)
 		(pad "39" smd rect
 			(at 0.845 0.615)
@@ -5129,7 +5129,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "9f8fb3e4-0af4-4299-98e4-914333e013f7")
 		)
 		(zone
 			(net 0)
@@ -6575,6 +6575,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C122848"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f6fd6dd-a4db-478f-adcd-aa2977d5bf35")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9487,7 +9500,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C318884"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13370,6 +13383,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C78395"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dc5386c-dad5-498e-8f03-467bdbbbc668")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/dbb4a8ba-e517-4300-8bd7-246a82132866")
 		(sheetname "/")
 		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
@@ -13514,7 +13540,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C318884"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
