@@ -7215,7 +7215,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 52.07) (xy 156.21 71.12)
+			(xy 156.21 57.15) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7262,6 +7262,16 @@
 			(type default)
 		)
 		(uuid "2397bb2b-7f33-4988-ab66-095f992a5df4")
+	)
+	(wire
+		(pts
+			(xy 92.71 116.84) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23aa381e-ce0a-46ab-aa86-561ef8368025")
 	)
 	(wire
 		(pts
@@ -7535,7 +7545,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 46.99) (xy 153.67 40.64)
+			(xy 153.67 52.07) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7585,16 +7595,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68604613-4271-4466-a2b9-a55948195aff")
-	)
-	(wire
-		(pts
 			(xy 101.6 81.28) (xy 113.03 81.28)
 		)
 		(stroke
@@ -7615,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 44.45) (xy 156.21 24.13)
+			(xy 156.21 49.53) (xy 156.21 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7632,26 +7632,6 @@
 			(type default)
 		)
 		(uuid "7050569b-8ca9-41be-aa4a-10c35a8d95db")
-	)
-	(wire
-		(pts
-			(xy 92.71 116.84) (xy 99.06 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70a1152b-df4c-4985-9865-071e9d24fd4e")
-	)
-	(wire
-		(pts
-			(xy 153.67 49.53) (xy 156.21 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72669515-cea1-472e-ab8a-3b152df62b49")
 	)
 	(wire
 		(pts
@@ -7885,7 +7865,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 153.67 46.99)
+			(xy 156.21 52.07) (xy 153.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7932,6 +7912,16 @@
 			(type default)
 		)
 		(uuid "a1f5a66e-706c-4e8d-b21f-cc391cfd475b")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20b4d7f-33f3-4272-bfdc-ca68cd626f25")
 	)
 	(wire
 		(pts
@@ -8045,7 +8035,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 143.51 54.61)
+			(xy 143.51 54.61) (xy 156.21 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8182,16 +8172,6 @@
 			(type default)
 		)
 		(uuid "e036fb1b-50f4-4eec-b461-29d74ed45ad1")
-	)
-	(wire
-		(pts
-			(xy 92.71 114.3) (xy 99.06 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e28608-0983-4ea8-9969-5849a63bf341")
 	)
 	(wire
 		(pts
@@ -8564,7 +8544,7 @@
 		(uuid "210b5b95-192b-419a-baee-b9e46ab6d563")
 	)
 	(label "TX"
-		(at 99.06 114.3 180)
+		(at 99.06 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8704,7 +8684,7 @@
 		(uuid "5c2d8208-9d94-4841-afa5-21c0873f1f3f")
 	)
 	(label "RX"
-		(at 99.06 116.84 180)
+		(at 99.06 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10388,6 +10368,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10860,7 +10841,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 118.11 165.1 0)
+		(at 175.26 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10869,7 +10850,7 @@
 		(fields_autoplaced yes)
 		(uuid "3410fd3f-fc20-4a82-8627-b2274a996c28")
 		(property "Reference" "#PWR037"
-			(at 118.11 168.91 0)
+			(at 175.26 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10859,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 118.11 160.02 0)
+			(at 175.26 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10886,7 +10867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 165.1 0)
+			(at 175.26 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,7 +10876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 165.1 0)
+			(at 175.26 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +10885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 165.1 0)
+			(at 175.26 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13914,7 +13895,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 190.5 0)
+		(at 175.26 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13923,7 +13904,7 @@
 		(fields_autoplaced yes)
 		(uuid "81989550-c7e1-4c47-a8c5-f1b4bb76aec4")
 		(property "Reference" "#PWR055"
-			(at 118.11 196.85 0)
+			(at 175.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13932,7 +13913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 195.58 0)
+			(at 175.26 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13940,7 +13921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 190.5 0)
+			(at 175.26 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13949,7 +13930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 190.5 0)
+			(at 175.26 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13958,7 +13939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 190.5 0)
+			(at 175.26 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +13961,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHCT125")
-		(at 118.11 177.8 0)
+		(at 175.26 31.75 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13989,7 +13970,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b89b6d4-223c-4ec0-820b-623df5b8991c")
 		(property "Reference" "U6"
-			(at 124.46 176.5299 0)
+			(at 181.61 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13998,7 +13979,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 124.46 179.0699 0)
+			(at 181.61 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14007,7 +13988,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 118.11 177.8 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14016,7 +13997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 118.11 177.8 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +14006,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 118.11 177.8 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +14773,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 161.29 46.99 0)
+		(at 161.29 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14800,7 +14781,7 @@
 		(dnp no)
 		(uuid "970ecc07-d078-4478-b001-058e0c54865a")
 		(property "Reference" "J6"
-			(at 163.83 46.9899 0)
+			(at 163.83 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,7 +14790,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 163.83 49.5299 0)
+			(at 163.83 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +14799,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal"
-			(at 161.29 46.99 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,7 +14808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 46.99 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14836,7 +14817,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 46.99 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,7 +14826,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 161.29 46.99 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17261,6 +17242,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18085,6 +18067,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
