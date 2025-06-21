@@ -9516,7 +9516,7 @@
 		(path "/d1c7ebdf-e0c0-4576-8ec0-2b9711970b24")
 		(sheetname "/")
 		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -2.75 -1)
 			(end -2.75 1)
@@ -13556,7 +13556,7 @@
 		(path "/24c0b4f4-b0d8-42de-90f2-388e3fce89c1")
 		(sheetname "/")
 		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -2.75 -1)
 			(end -2.75 1)
