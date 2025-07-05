@@ -7155,6 +7155,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 147.32) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b7ad09-8850-40c5-b2c5-d8d30a91b400")
+	)
+	(wire
+		(pts
 			(xy 198.12 137.16) (xy 212.09 137.16)
 		)
 		(stroke
@@ -7535,6 +7545,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 147.32) (xy 81.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5affee92-7918-4545-984a-0e8b88461d73")
+	)
+	(wire
+		(pts
 			(xy 35.56 93.98) (xy 27.94 93.98)
 		)
 		(stroke
@@ -7622,16 +7642,6 @@
 			(type default)
 		)
 		(uuid "704bcf15-8c40-4d93-8b0e-062c52d46e4d")
-	)
-	(wire
-		(pts
-			(xy 87.63 125.73) (xy 81.28 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7050569b-8ca9-41be-aa4a-10c35a8d95db")
 	)
 	(wire
 		(pts
@@ -7875,6 +7885,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 147.32) (xy 81.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95223b78-358a-4a6d-b7d3-87372e195320")
+	)
+	(wire
+		(pts
 			(xy 20.32 127) (xy 20.32 125.73)
 		)
 		(stroke
@@ -7942,16 +7962,6 @@
 			(type default)
 		)
 		(uuid "a2d9d0a3-de2b-4b9e-a1a9-06dd8d732097")
-	)
-	(wire
-		(pts
-			(xy 77.47 125.73) (xy 71.12 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a33266db-87b2-4437-940f-b308ea6307de")
 	)
 	(wire
 		(pts
@@ -8052,6 +8062,16 @@
 			(type default)
 		)
 		(uuid "b77085f7-93be-495c-9b0a-e62bf27ca880")
+	)
+	(wire
+		(pts
+			(xy 78.74 147.32) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1d529e-afdd-49be-a31a-7811c9c17b22")
 	)
 	(wire
 		(pts
@@ -8673,6 +8693,16 @@
 		)
 		(uuid "58798798-6af0-462f-a2e8-c2fe8e95c707")
 	)
+	(label "ALT_RX"
+		(at 78.74 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "590d5ef4-f0d9-44cc-9045-e4df63059054")
+	)
 	(label "OUT1"
 		(at 264.16 59.69 180)
 		(effects
@@ -8793,16 +8823,6 @@
 		)
 		(uuid "9b4ba524-eebe-491d-97aa-1ce0f469dc06")
 	)
-	(label "ALT_TX"
-		(at 87.63 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c8bc928-d21a-4bd2-83fa-9a383395c13f")
-	)
 	(label "SL_1"
 		(at 264.16 39.37 180)
 		(effects
@@ -8812,6 +8832,16 @@
 			(justify right bottom)
 		)
 		(uuid "9f909817-b884-49ce-ab57-06db383f00e3")
+	)
+	(label "ALT_TX"
+		(at 88.9 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a602165c-d8f3-43d9-8098-e3594d13f70b")
 	)
 	(label "RS232_TX"
 		(at 31.75 163.83 180)
@@ -8892,16 +8922,6 @@
 			(justify right bottom)
 		)
 		(uuid "c5909e5a-daca-4038-a877-316938f8eaca")
-	)
-	(label "ALT_RX"
-		(at 77.47 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c85021f4-2acc-4695-8caa-20bbc11c1ad7")
 	)
 	(label "SL_1"
 		(at 35.56 102.87 180)
@@ -9180,6 +9200,72 @@
 			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033176af-50b9-4b92-bce0-62e68534eab0")
+		(property "Reference" "#PWR027"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 81.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2583213c-1776-457e-a7f9-c56d46720837")
+		)
+		(instances
+			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10628,72 +10714,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 71.12 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cafe9b8-68f6-490d-aff5-1c052558ca23")
-		(property "Reference" "#PWR026"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6760fd91-9591-43ff-b797-1f81d1a21ae5")
-		)
-		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
-				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 102.87 25.4 0)
 		(unit 1)
@@ -11610,7 +11630,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 129.54 180)
+		(at 81.28 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11619,7 +11639,7 @@
 		(fields_autoplaced yes)
 		(uuid "45e36a47-b638-4c35-aadf-9cdc4eaca35e")
 		(property "Reference" "R10"
-			(at 83.82 128.2699 0)
+			(at 83.82 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +11648,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 83.82 130.8099 0)
+			(at 83.82 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11637,7 +11657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.058 129.54 90)
+			(at 83.058 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +11666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 129.54 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,7 +11675,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 129.54 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +11684,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 81.28 129.54 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13438,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 81.28 137.16 90)
+		(at 81.28 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13427,7 +13447,7 @@
 		(fields_autoplaced yes)
 		(uuid "7765dce9-c28f-49ba-ae3b-1dcb5d09016f")
 		(property "Reference" "D6"
-			(at 85.09 137.4774 90)
+			(at 85.09 129.8574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13456,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 85.09 140.0174 90)
+			(at 85.09 132.3974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13445,7 +13465,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 81.28 137.16 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 137.16 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +13483,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 81.28 137.16 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +13492,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 137.16 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13481,7 +13501,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 81.28 137.16 90)
+			(at 81.28 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14987,72 +15007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "998a11a9-fdd9-4759-bf73-51d7ddf4406f")
-		(property "Reference" "#PWR027"
-			(at 81.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "651e5940-924a-4149-8e33-52358f23c24c")
-		)
-		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
-				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 25.4 59.69 90)
 		(unit 1)
@@ -15136,7 +15090,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e0367d2-2241-42cd-a5fa-a950527169c8")
 		(property "Reference" "U4"
@@ -16203,7 +16157,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 129.54 180)
+		(at 71.12 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16212,7 +16166,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbede4a2-b6a7-4d9f-b5a9-bd02a8ede9d7")
 		(property "Reference" "R9"
-			(at 73.66 128.2699 0)
+			(at 73.66 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16175,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 73.66 130.8099 0)
+			(at 73.66 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16184,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 72.898 129.54 90)
+			(at 72.898 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 129.54 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16248,7 +16202,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 129.54 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16257,7 +16211,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 71.12 129.54 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17059,9 +17013,9 @@
 		(at 86.36 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d0d7d36a-9203-4d9f-8075-3c39c88f54a5")
 		(property "Reference" "U2"
@@ -17567,6 +17521,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd066797-5d93-4f24-ac72-ae7ec0a69290")
+		(property "Reference" "#PWR026"
+			(at 71.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07c94a21-9e9d-4c0e-a4c0-6b53a3dd36db")
+		)
+		(instances
+			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 190.5 0)
 		(unit 1)
@@ -17919,7 +17939,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 71.12 137.16 90)
+		(at 71.12 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17928,7 +17948,7 @@
 		(fields_autoplaced yes)
 		(uuid "e525b5cb-5551-4be2-ad03-7ab2f16bd8b1")
 		(property "Reference" "D5"
-			(at 74.93 137.4774 90)
+			(at 74.93 129.8574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17937,7 +17957,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 74.93 140.0174 90)
+			(at 74.93 132.3974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,7 +17966,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 71.12 137.16 0)
+			(at 71.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17955,7 +17975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 137.16 0)
+			(at 71.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17964,7 +17984,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 137.16 0)
+			(at 71.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17973,7 +17993,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 137.16 0)
+			(at 71.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17982,7 +18002,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 71.12 137.16 90)
+			(at 71.12 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
