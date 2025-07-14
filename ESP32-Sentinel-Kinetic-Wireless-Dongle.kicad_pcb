@@ -265,10 +265,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58ef08fe-6823-45dc-8765-917ef3614d54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "4P4C* RJ9* RJ10* RJ22*")
 		(path "/7a7dba5b-3faa-488e-a6e6-1abb017ede38")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5 -3.35)
@@ -518,10 +531,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0164e75f-6599-46d8-a4f0-0acb339ae4a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bb5fcf85-e83b-426f-8351-04e494905cba")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -731,10 +757,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84ed5361-8378-44ab-9025-f94f7f5b0c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb7b01c-b18a-401b-8e0e-8047ad7ab742")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -944,10 +983,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14fba176-bf5b-42f0-9855-6749252e9d8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/45e36a47-b638-4c35-aadf-9cdc4eaca35e")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -1157,10 +1209,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63cb8aa2-7925-48db-b5ae-79900599497c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbede4a2-b6a7-4d9f-b5a9-bd02a8ede9d7")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -1370,10 +1435,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c13a0b1-4099-45c8-9080-ab636a69aa7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5f502c9e-2321-47e7-8468-331a98850ad3")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -1570,10 +1648,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36b70259-043b-4a32-bc7d-6e8d84008966")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/832faba6-bf57-4689-8d64-fdaeb73868b3")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -2085,10 +2176,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f66acf-5a92-45b0-89ea-9ccadf219614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?923*")
 		(path "/92acbd80-2384-4192-aab6-abf020df2d64")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.81 0.61)
@@ -2401,10 +2505,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a47c782a-6004-4663-8a64-cb182ee247e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/29b22c2c-a2a0-46cf-9a1f-cc67a52e7303")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -2636,10 +2753,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edac5265-36b4-48f7-bfab-07cddeb492bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/121f464b-2e32-48a7-a042-3774380ea703")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -2849,10 +2979,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a22c6e9-5e5d-4333-99b8-e6ec4272468d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a8e387c4-1ca3-47a1-899a-52e3ca4a1065")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -3064,10 +3207,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aab1eeb5-6743-4403-8e55-d889c3d5f33f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/2fccacb2-edf6-4b40-8b1a-df8ee70770fb")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 -3.41)
@@ -3354,10 +3510,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3027e917-5135-4d49-85dd-34082e521ac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/605ffa03-cc79-46a0-87b1-ff9db452c82a")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -3602,10 +3771,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40e96d0d-4101-4247-8516-9954b2aff751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e291fe3e-866c-489c-9ee7-0e76df7ec889")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -3837,10 +4019,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8886ba18-88ea-4c51-8507-bf2b97b89d0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/af782290-cade-4426-a73b-06285cf2d5f8")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -4063,10 +4258,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e847212a-518f-4031-b258-17b9d7fe5196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/42d9fe69-2e5c-4539-bd37-278fb71a8786")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -4285,10 +4493,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a01b04-2539-40d9-b0e6-eb0d7c6785e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/647c09b0-595d-47bf-82dd-ca5b4ab42224")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.38 1.27)
@@ -4528,10 +4749,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C431710"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "667124f5-3e66-4811-b634-50b63f8bfbac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5dbf5ee-a2c3-43de-bae8-70c59799f54d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/4f99c46a-5a3e-47e0-8909-548c1b167e02")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -4864,11 +5111,24 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5083f9aa-0fd6-4609-99c1-e888f28375f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "ESP32?WROOM?32*")
 		(path "/9e0367d2-2241-42cd-a5fa-a950527169c8")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
-		(attr smd)
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -9.12 9.1)
 			(end -9.12 9.88)
@@ -5496,7 +5756,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "417fcc12-6243-48b2-8204-fcaccaa13421")
 		)
 		(pad "39" smd rect
 			(at -2.205 -0.91)
@@ -5505,7 +5765,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "9c0cc6e3-49a5-433a-adbc-d0b01d8b04a5")
 		)
 		(pad "39" thru_hole circle
 			(at -2.205 -0.1475)
@@ -5518,7 +5778,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "ac7f7c3b-294b-4c37-963a-1664a7fb67fd")
 		)
 		(pad "39" smd rect
 			(at -2.205 0.615)
@@ -5527,7 +5787,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "565b6259-bdb3-4990-9140-88bec2598478")
 		)
 		(pad "39" thru_hole circle
 			(at -1.4425 -2.435)
@@ -5540,7 +5800,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "b060c25e-c9f2-48ab-929e-b298674d5415")
 		)
 		(pad "39" thru_hole circle
 			(at -1.4425 -0.91)
@@ -5553,7 +5813,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "e31e3b5f-7e23-4dc9-a12b-61a2f6402637")
 		)
 		(pad "39" thru_hole circle
 			(at -1.4425 0.615)
@@ -5566,7 +5826,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "2772d200-0436-4993-9ba2-95a5db898405")
 		)
 		(pad "39" smd rect
 			(at -0.68 -2.435)
@@ -5575,7 +5835,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "4c398128-beb1-4eae-b92f-5da5f0564133")
 		)
 		(pad "39" thru_hole circle
 			(at -0.68 -1.6725)
@@ -5588,7 +5848,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "501accfe-49d8-4a45-ba9c-b0b447ae673e")
 		)
 		(pad "39" smd rect
 			(at -0.68 -0.91)
@@ -5597,7 +5857,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "e04288ee-1d28-40da-b5f6-954bf4e6d6ae")
 		)
 		(pad "39" smd rect
 			(at -0.68 -0.91)
@@ -5608,7 +5868,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "ca83a780-63f2-4037-9f12-aa20e096d718")
 		)
 		(pad "39" thru_hole circle
 			(at -0.68 -0.1475)
@@ -5621,7 +5881,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "40433161-0614-45f9-94a2-22c2da8dcc5c")
 		)
 		(pad "39" smd rect
 			(at -0.68 0.615)
@@ -5630,7 +5890,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "fa2d05fd-7ea4-48d9-9dcb-731d5d20acfb")
 		)
 		(pad "39" thru_hole circle
 			(at 0.0825 -2.435)
@@ -5643,7 +5903,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "d0c767bc-ec6a-4d05-a1e7-cdb2c77948cd")
 		)
 		(pad "39" thru_hole circle
 			(at 0.0825 -0.91)
@@ -5656,7 +5916,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "48ef695d-5ba7-4602-8969-50ce4fbf7b4e")
 		)
 		(pad "39" thru_hole circle
 			(at 0.0825 0.615)
@@ -5669,7 +5929,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "9f349504-0ad7-45c7-bae1-cf63063faf40")
 		)
 		(pad "39" smd rect
 			(at 0.845 -2.435)
@@ -5678,7 +5938,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "12eb4d82-51a9-4662-90d1-63af7c230c49")
 		)
 		(pad "39" thru_hole circle
 			(at 0.845 -1.6725)
@@ -5691,7 +5951,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "6945987a-8452-4c90-90d7-a7aad1eefbb3")
 		)
 		(pad "39" smd rect
 			(at 0.845 -0.91)
@@ -5700,7 +5960,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "109cdd73-2a96-4f27-95ca-f679d1ffedef")
 		)
 		(pad "39" thru_hole circle
 			(at 0.845 -0.1475)
@@ -5713,7 +5973,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "cb006efe-55e3-4434-bad7-3b025b8ea6cb")
 		)
 		(pad "39" smd rect
 			(at 0.845 0.615)
@@ -5722,7 +5982,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "44f33d03-e901-473b-8863-3bd760507b12")
+			(uuid "0b8d6f2c-82a6-45d4-b13f-d57bd4abf2b3")
 		)
 		(zone
 			(net 0)
@@ -5835,10 +6095,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c549f3c-2b05-43f2-9ea3-31a73d4eeb19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dafb8dc8-1cf2-4308-8e4c-f72298b01b86")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -6061,10 +6334,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4b6c6ce-9f03-4288-aa3b-1ec7b845275e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bfb2804a-e3b5-4dee-a61c-c66cec84df43")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -6296,10 +6582,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b26a050-90e0-4b7a-b05b-6aa98e9c2b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5ea54796-80b4-464e-b014-9246cee0ac81")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -6496,10 +6795,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e033235f-5c83-43ac-acb0-c9bd5bfd1196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/e5b74942-9308-4fca-8c50-63f91147819a")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 3.92 -1.38)
@@ -6893,10 +7205,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373bd6d7-7931-49b4-aa83-e76bee207bca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/50d55240-8ab1-4dc8-897c-bb00a07b0c64")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -7093,10 +7418,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db256622-8a48-44c3-82d8-272102d10eae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5a8ebf43-9ae6-4730-9931-b1eab591d8e2")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -7367,10 +7705,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "773800a0-7ac4-4639-9b6e-ded8dd9d7cb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "4P4C* RJ9* RJ10* RJ22*")
 		(path "/80c4f368-ec5f-4c0e-8938-9382c71269a9")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5 -3.35)
@@ -7607,10 +7958,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C71035"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8eaf8ad-1c60-4b1d-8f40-e531a6f13292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "153f81af-b226-4c9e-bd2e-3408bbdaf1e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
 		(path "/75a6927e-3d3a-4687-a2db-2217bdd49c64")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -4.435)
@@ -8062,10 +8439,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb0faf07-e8db-4b65-9b84-8a8c7bf50f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0d7dd9f4-9e38-4d1f-9c72-1b08bc7c2b7f")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 -1.65)
@@ -8347,10 +8737,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46efbb29-e16c-4ead-af89-67b8b93be295")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3ea560fe-bb33-4857-8b8d-6260e5882e66")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -8560,10 +8963,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "958a2d28-51d5-42dd-a8a0-60c89e3d4f77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00ddb637-1302-4d97-b056-56b98b51d8c1")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.56 -4.26)
@@ -8815,10 +9231,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8576a10f-cc04-4d29-ad03-5a55a560527f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/917553f2-5753-4e1b-8a54-f3061a54ad91")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -9028,10 +9457,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da16f448-44b5-4c91-ac1b-1533c64838a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d765b54-b117-4455-9bd3-b8b6b5de3664")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -9254,10 +9696,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20143abb-e120-41a5-807f-fe22c864147e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e525b5cb-5551-4be2-ad03-7ab2f16bd8b1")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -9476,10 +9931,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06f946a-b6f3-4bbf-93f6-72f6e8320013")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/74199056-14d8-49ef-a5ea-d9dfaba0b94e")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -9965,10 +10433,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C61063"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dee5dd72-1ab0-42a0-9ee6-1618ed3d8b04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a59ab2e-7344-4dbd-82c9-0994cecfc621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/f05a4353-98dc-4588-9f1d-8979e67e08c2")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 2.56)
@@ -10362,10 +10856,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d965518-dbb0-4266-b6e1-62e76584aab9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d4b136c-6b3e-49f7-9d71-a93ce88bd508")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -10575,10 +11082,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62894161-5c34-482b-a1c2-28224377e061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/44d45281-004b-4b5e-8f45-1e0838238e45")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -10801,10 +11321,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788ee8e4-4ff0-4e04-81e6-af0fd79187b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4ed5cc29-e92d-4875-9fd7-ec579686c7be")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -11036,10 +11569,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71e7959-24a0-4a18-8636-718721992719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b0009ca1-2b7d-44ea-85d7-ddc4c1b17c9d")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -11262,10 +11808,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be1d60cb-6aa2-4373-a01b-7a34c71b9c67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7765dce9-c28f-49ba-ae3b-1dcb5d09016f")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -11497,10 +12056,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33638c0f-2508-4b99-969b-a4ec37aa2321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3ec062d4-0f01-4628-94e4-d2004c980dea")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11697,10 +12269,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9903c6c1-3b44-4d53-8014-674e206e78a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/53370dfd-9904-4d28-addd-82b2cd40386c")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -11810,10 +12395,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a9085eb-1634-4279-ad5e-a1e8524f68bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff46822a-fccf-40cc-b3f0-739b83f82ccb")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -12023,10 +12621,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d71ca1d5-4fa9-4f6b-a7c8-9b6782c42f7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3755fb4d-46cb-4cd5-9e8e-3b78414b2416")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -12236,10 +12847,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3d9e8cf-89a0-48e3-bbbe-5a104f25f94f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7fc7f3cb-3bf5-486f-b4e3-fa0fc2b30640")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -12449,9 +13073,22 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c308df14-948e-47e5-9065-7f14eeaf678b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bc88c000-06ed-45b1-a59a-e60c8e6c784b")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -12808,10 +13445,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88fe43-380e-4c1f-9718-e078b6a3f6d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/74818f73-3a93-464f-a787-1ad0fa85d095")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -13030,10 +13680,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68878147-644e-4164-a20a-04f227fed521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/f96ac6fb-1ed9-48a7-a237-375d1f268e1b")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -13143,10 +13806,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa3e630-6221-4fca-ac95-ba2f9efa4c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ce36eb1-c58b-4db8-9fbc-3c872a4928b9")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -13356,10 +14032,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "340795e4-b6da-45e6-b0cb-e7a860090d60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9059c05c-082d-459f-97e4-2038a26484cf")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -13569,10 +14258,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbf0fcea-ca81-4cb2-8098-28ae5494cf53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8de87b42-255f-4be1-954a-735899776ad4")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -13782,10 +14484,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec41ee1b-acd7-408e-9da0-db81c492a613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*")
 		(path "/e8969fa6-ad0f-425b-838c-1b26f711556e")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -5.06)
@@ -14246,10 +14961,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff48f2a4-041c-4b0f-8aa7-813dd7d363f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/8ae72182-6180-4330-a032-1c28bcc891c9")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.33 -0.599)
@@ -16325,7 +17053,7 @@
 			(roundrect_rratio 0.15625)
 			(net 68 "Net-(JP2-A)")
 			(pintype "passive")
-			(uuid "5d0c0869-617b-4376-a3aa-6ccc21db7773")
+			(uuid "ffa91a24-5310-4486-a596-1d657131401b")
 		)
 		(pad "2" thru_hole circle
 			(at 2.5 0 180)
@@ -16345,7 +17073,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "af304502-b3a7-45e5-ab39-d9b5e900befe")
+			(uuid "d0b20940-7bc7-4e80-8338-e3d862072bbc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P2.50mm_P5.00mm.step"
@@ -16426,10 +17154,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b126296f-e973-4b1a-957d-9422c0093110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/55c21b58-fc34-4fa9-8ce2-f56ee9285348")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -16639,10 +17380,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a3847f0-054c-43f5-80f0-1e935e70e2ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c9196294-ebb5-44b4-b3fa-347a9f4727e0")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16852,10 +17606,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c33e7ed-1c94-4dd0-9a58-f0cf0f57fa8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f7cf2c05-f070-402b-b686-b71045ddbeef")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -17065,10 +17832,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ada1107-6e54-4909-a081-a4b2725c0829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8c0dd4f7-8a43-4884-a7cc-e9b664d84b5f")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -17265,10 +18045,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "982bf5b6-0280-4e7c-91a0-ef189833f204")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d6029022-5d2d-48a2-895c-c290364efb48")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -17378,10 +18171,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff0cc33d-a5ca-4801-99dd-141e1bfe93e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8778b2f3-51c9-407e-bb5b-b8d8e317f658")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -17578,10 +18384,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0edb154-106d-461d-aa4d-fb68dc3f7546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/cac87a48-e018-425c-b7a1-7ef7ff1b7e87")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.979646 -2.875)
@@ -19667,9 +20486,22 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1991834d-f644-44a7-9b8c-46085be574d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bb31dd3b-4cb6-4c9e-a1db-2ac0454b3b6b")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -20015,10 +20847,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6e312c7-2e0c-4608-beef-4ee46652bb21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/87c50b79-7fdb-4d50-a7c5-85ccf90de0a4")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 -1.65)
@@ -20300,10 +21145,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efebf95e-d22b-4fdd-a893-9aaef0a6c0ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a0d96f8b-f614-4f4f-8381-5de5f24eecfb")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -20513,10 +21371,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10e714a8-4419-49b8-bdaf-c9d4d78fd650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ae0331f9-3689-49d7-97fe-768e68278e75")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -20726,10 +21597,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d081d59-e282-4bf9-b609-42c1ffd60e9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e6b8810a-b62f-4fae-87ff-97c31c58a8c1")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -20939,10 +21823,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "910457a2-f08f-44fd-ad8e-369c80b93d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/626b7df7-a838-48e8-802f-4f118ea48cc3")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -21165,10 +22062,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99bfd29b-7e6a-4ced-a7f5-b48ff47f49a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f2000048-d396-4d23-991d-bcbbac679d2a")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -21400,10 +22310,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dea3668-0e29-40dd-8b24-79044b292ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a584771e-53f4-4fe2-ae16-5ff9381366e3")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.11 -1.11)
@@ -21724,10 +22647,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94bbdfcc-0f08-4c9b-8416-359785d9e615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6de92575-8aef-46a3-94e3-4d4dab287697")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -21959,10 +22895,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "931ff0c9-061f-4c8f-9278-55a26b2a9558")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cfbba4af-e65f-425b-adb9-8dadc6cbbb1a")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -22172,10 +23121,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2a08ce5-3a9a-43f1-a4e2-f6e702f608c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d085cb9f-3a52-43ee-b08e-a5cfd63212d5")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -22387,9 +23349,22 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54d906ec-2135-49cb-a7d7-4f639267554e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d1c7ebdf-e0c0-4576-8ec0-2b9711970b24")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -22883,10 +23858,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ac3e199-bbd3-4f47-9db2-96637b9e0bd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/1c5b57e6-de08-47e8-a216-1acf386ddd6e")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -22996,10 +23984,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82980ed9-d758-4cfb-89f3-0ecceacd1774")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/08f84964-d4ae-4f6a-982b-76b131ca6e5e")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -23209,10 +24210,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8201408-9876-4e18-920e-b62e53820a70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4951e24b-d980-44d8-86da-df4c77496496")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -23422,10 +24436,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fec445c5-2247-4ec0-b6a7-c9023314e99c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7419d4f3-f92a-4b59-86f8-610dd99c819f")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -23637,9 +24664,22 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b0a1a5-45ee-4d47-a0fc-f7bd3f54e404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/24c0b4f4-b0d8-42de-90f2-388e3fce89c1")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -24146,10 +25186,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4782cc89-399e-400a-8ff9-97ae6f40a484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f4292f85-422a-467e-ac11-90c46eb3c5f4")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -24359,10 +25412,23 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1510a83f-2515-45db-90ef-a9aad0274537")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a5ec9f47-766a-4446-9d9d-84b5dafbe9e4")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -24564,10 +25630,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "add6954b-9f34-4cbb-bb27-d9005723d358")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/ecbe34e0-ff57-429c-8d85-455d18c67c2c")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
@@ -24837,10 +25917,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "495ab2af-2893-4fb5-a071-1b946efbeff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/f4276c79-18c7-4f8f-8d63-cad15fc44376")
 		(sheetname "/")
-		(sheetfile "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
+		(sheetfile "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
