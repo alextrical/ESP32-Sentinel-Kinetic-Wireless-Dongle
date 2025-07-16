@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf")
+	(descr "Wi-Fi Module, http://wiki.ai-thinker.com/_media/ESP32/docs/aithinker_esp_12f_datasheet_en.pdf")
 	(tags "Wi-Fi Module")
 	(property "Reference" "REF**"
 		(at -10.56 -5.26 0)

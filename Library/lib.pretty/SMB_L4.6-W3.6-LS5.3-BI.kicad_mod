@@ -14,7 +14,7 @@
 	(pad 1 smd rect (at -2.59 0.00 0.00) (size 2.05 2.24) (layers F.Cu F.Paste F.Mask))
 	(pad 2 smd rect (at 2.59 0.00 0.00) (size 2.05 2.24) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -2.70 1.81) (end -2.67 1.81) (layer F.Fab) (width 0.06))
-	(model "/Users/alextrical/GitHub/ESP8266-Vent-Axia-Sentinel-Kinetic-Wired-Remote-Controller/Library/lib.3dshapes/SMB_L4.6-W3.6-LS5.3-BI.wrl"
+	(model "/Users/alextrical/GitHub/ESP32-Vent-Axia-Sentinel-Kinetic-Wired-Remote-Controller/Library/lib.3dshapes/SMB_L4.6-W3.6-LS5.3-BI.wrl"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

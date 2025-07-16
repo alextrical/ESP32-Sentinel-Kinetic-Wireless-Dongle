@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf"
+		(property "Datasheet" "http://wiki.ai-thinker.com/_media/ESP32/ESP32_series_modules_user_manual_v1.1.pdf"
 			(at -8.89 2.54 0)
 			(effects
 				(font

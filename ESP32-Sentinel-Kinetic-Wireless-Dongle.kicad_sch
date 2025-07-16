@@ -9580,7 +9580,7 @@
 			(uuid "e53ca374-b915-4b13-80b6-e6f91c4367a1")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR023")
 					(unit 1)
@@ -9646,7 +9646,7 @@
 			(uuid "4fd7cd78-c659-46c3-bfa3-05a8d9e78a08")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR043")
 					(unit 1)
@@ -9711,7 +9711,7 @@
 			(uuid "8034ca73-fcb1-4a46-b496-74ded0b71325")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR065")
 					(unit 1)
@@ -9777,7 +9777,7 @@
 			(uuid "2583213c-1776-457e-a7f9-c56d46720837")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR027")
 					(unit 1)
@@ -9843,7 +9843,7 @@
 			(uuid "a7bb955a-2201-4aa7-b594-c2a4b035a070")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR06")
 					(unit 1)
@@ -9909,7 +9909,7 @@
 			(uuid "2d30a06f-2ff1-4e40-90e3-0b0eac6737a6")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR071")
 					(unit 1)
@@ -9997,7 +9997,7 @@
 			(uuid "2d802eb9-8e58-44ca-9fce-b53d13e4b7a5")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R24")
 					(unit 1)
@@ -10085,7 +10085,7 @@
 			(uuid "cb215cf8-552c-4773-902b-acf3a4e91e51")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R14")
 					(unit 1)
@@ -10239,7 +10239,7 @@
 			(uuid "4955af34-aa65-4cdb-9bca-846b85629f94")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR028")
 					(unit 1)
@@ -10327,7 +10327,7 @@
 			(uuid "7b4d4c0d-c767-4bec-8712-4f837e5e5c0f")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C2")
 					(unit 1)
@@ -10393,7 +10393,7 @@
 			(uuid "a61cd48e-04d1-4b9e-8aaa-1029fce2a340")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR051")
 					(unit 1)
@@ -10459,7 +10459,7 @@
 			(uuid "d61e002c-6858-4da8-82d0-74f45726542d")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR02")
 					(unit 1)
@@ -10532,7 +10532,7 @@
 			)
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "H4")
 					(unit 1)
@@ -10598,7 +10598,7 @@
 			(uuid "655ecee3-7dd9-436e-a7de-3b37a9387bf8")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR031")
 					(unit 1)
@@ -10686,7 +10686,7 @@
 			(uuid "d256b40f-16fa-424e-b71a-5df632497175")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C8")
 					(unit 1)
@@ -10752,7 +10752,7 @@
 			(uuid "8cdb9baa-12d4-4845-9e45-8de16ef260dc")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR064")
 					(unit 1)
@@ -10818,7 +10818,7 @@
 			(uuid "9df53756-9b90-46e2-916e-46092c2f94e6")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR067")
 					(unit 1)
@@ -10884,7 +10884,7 @@
 			(uuid "973f4e41-1fdc-4b2a-9961-2a01888d933e")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR029")
 					(unit 1)
@@ -11037,7 +11037,7 @@
 			(uuid "8c72e7de-f487-4470-b2cc-097ad5b1d121")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR054")
 					(unit 1)
@@ -11134,7 +11134,7 @@
 			(uuid "252993d0-3c17-453d-9c9f-11a5e0db9c54")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D10")
 					(unit 1)
@@ -11200,7 +11200,7 @@
 			(uuid "33f37f0d-4e33-417b-8e59-ed72430f6d21")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR011")
 					(unit 1)
@@ -11355,7 +11355,7 @@
 			(uuid "0861d6ee-e631-4d22-88e3-cc911eb8a3d2")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR010")
 					(unit 1)
@@ -11421,7 +11421,7 @@
 			(uuid "81b5c0f8-5e1c-43c8-9098-5e3fb69981ea")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR072")
 					(unit 1)
@@ -11487,7 +11487,7 @@
 			(uuid "5322b04f-3fd3-4696-b371-3b4bbf7d5a5b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR049")
 					(unit 1)
@@ -11575,7 +11575,7 @@
 			(uuid "d1bcec2e-e92d-4ca9-911a-0a4a35fab59c")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R5")
 					(unit 1)
@@ -11641,7 +11641,7 @@
 			(uuid "68ae708e-bc68-480b-ac1b-ae2bff86a52c")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR073")
 					(unit 1)
@@ -11729,7 +11729,7 @@
 			(uuid "b95410a4-b760-4c5e-b8f2-aef07d8ab859")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R17")
 					(unit 1)
@@ -11817,7 +11817,7 @@
 			(uuid "c42fc878-2ba8-48b7-8198-5721d404566b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R12")
 					(unit 1)
@@ -12002,7 +12002,7 @@
 			(uuid "7a224d79-ceeb-4caa-9afe-ee1c1858b867")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R26")
 					(unit 1)
@@ -12068,7 +12068,7 @@
 			(uuid "a29300c6-25df-41d8-8f9f-0dad4705b050")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR019")
 					(unit 1)
@@ -12156,7 +12156,7 @@
 			(uuid "f1fe29a8-c237-4121-b337-8a7914e655d0")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R10")
 					(unit 1)
@@ -12244,7 +12244,7 @@
 			(uuid "fda69a3f-d67e-4b50-bc69-86d46cb18bd6")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C6")
 					(unit 1)
@@ -12310,7 +12310,7 @@
 			(uuid "552242ec-04bb-4bb5-828b-4db26ae27efa")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR025")
 					(unit 1)
@@ -12376,7 +12376,7 @@
 			(uuid "e50f78c2-0672-4832-8ee3-90a1dd1a418d")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR047")
 					(unit 1)
@@ -12473,7 +12473,7 @@
 			(uuid "2a9ef932-e4fc-4dd1-893a-3fab527a2260")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D7")
 					(unit 1)
@@ -12567,7 +12567,7 @@
 			(uuid "b47769ab-f7c2-4e7e-91ce-e371581e9850")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "Q1")
 					(unit 1)
@@ -12633,7 +12633,7 @@
 			(uuid "a93077d9-93fb-4924-a33f-61db788870bc")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR060")
 					(unit 1)
@@ -12719,7 +12719,7 @@
 			(uuid "1c618d84-5a4c-4c4d-b508-d5dee1dff890")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R27")
 					(unit 1)
@@ -12785,7 +12785,7 @@
 			(uuid "d85dcfc5-e083-470a-a124-028500a756c0")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR030")
 					(unit 1)
@@ -13078,7 +13078,7 @@
 			(uuid "1654768c-5238-46e5-be27-5529992b3dfb")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR03")
 					(unit 1)
@@ -13199,7 +13199,7 @@
 			(uuid "25f29612-60fd-48be-81d8-eca89ce71900")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "U2")
 					(unit 4)
@@ -13265,7 +13265,7 @@
 			(uuid "30014be9-43c0-48d5-9286-3108abf651ba")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR021")
 					(unit 1)
@@ -13332,7 +13332,7 @@
 			(uuid "f628421e-64bf-4e41-b8e4-4b723de8935a")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR018")
 					(unit 1)
@@ -13483,7 +13483,7 @@
 			(uuid "045fdb8a-ee26-4e0f-b86b-7c326a889565")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR015")
 					(unit 1)
@@ -13570,7 +13570,7 @@
 			(uuid "a3a3e0e4-785e-4c89-a337-bece13bcc079")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C7")
 					(unit 1)
@@ -13636,7 +13636,7 @@
 			(uuid "f27bab8d-4869-4c55-8636-9a52d34a9c6e")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR042")
 					(unit 1)
@@ -13721,7 +13721,7 @@
 			(uuid "3784e049-dbc6-4d3f-a263-4be36334f50c")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C10")
 					(unit 1)
@@ -13818,7 +13818,7 @@
 			(uuid "72a53990-3622-41f0-a609-42a47930376f")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D12")
 					(unit 1)
@@ -13883,7 +13883,7 @@
 			(uuid "953eebec-d24f-4327-ae53-782f9cca9eba")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR020")
 					(unit 1)
@@ -13970,7 +13970,7 @@
 			(uuid "9293bea9-3815-4839-8436-c29187b8132a")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C9")
 					(unit 1)
@@ -14091,7 +14091,7 @@
 			(uuid "25f29612-60fd-48be-81d8-eca89ce718fe")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "U2")
 					(unit 3)
@@ -14232,7 +14232,7 @@
 			(uuid "1e7afe7f-c276-4eca-bccc-e7a3a0c56cdd")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#FLG02")
 					(unit 1)
@@ -14329,7 +14329,7 @@
 			(uuid "c7cb08ff-3c48-4b43-95cd-768da14c2204")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D14")
 					(unit 1)
@@ -14395,7 +14395,7 @@
 			(uuid "621b485b-a38f-4244-83ee-ebf68a85a404")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR052")
 					(unit 1)
@@ -14461,7 +14461,7 @@
 			(uuid "cbd6a638-3743-498e-88c4-f275612d2021")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR044")
 					(unit 1)
@@ -14527,7 +14527,7 @@
 			(uuid "361527c1-6291-4100-8de6-f9fd1a3c6e7f")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR063")
 					(unit 1)
@@ -14617,7 +14617,7 @@
 			(uuid "15791767-da64-4ae5-a255-ef709e164263")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "J6")
 					(unit 1)
@@ -14705,7 +14705,7 @@
 			(uuid "c58aa719-f577-4732-b387-b783e12e932b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R8")
 					(unit 1)
@@ -14802,7 +14802,7 @@
 			(uuid "d912f00e-3abe-4dd7-a4d8-6cc2131c0045")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D13")
 					(unit 1)
@@ -14867,7 +14867,7 @@
 			(uuid "a8768adc-1d34-4eb1-a1bc-60c83cce6a92")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR04")
 					(unit 1)
@@ -14989,7 +14989,7 @@
 			(uuid "39ef070e-cafa-4366-8182-ac6d4ae55711")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "U2")
 					(unit 1)
@@ -15086,7 +15086,7 @@
 			(uuid "62fb4b2e-9fd3-4543-805d-8923ad6f5f5b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D6")
 					(unit 1)
@@ -15168,7 +15168,7 @@
 			(uuid "16c77968-da1d-45e3-a1a3-44572d5b99b4")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "J2")
 					(unit 1)
@@ -15256,7 +15256,7 @@
 			(uuid "eab5127b-4d15-43ec-b794-a32911b1bab0")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C1")
 					(unit 1)
@@ -15322,7 +15322,7 @@
 			(uuid "f1ad731f-2a89-4a59-a9f6-afcf48ef0262")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR07")
 					(unit 1)
@@ -15404,7 +15404,7 @@
 			(uuid "0c1ffb0e-9d6b-4496-b799-7d180117b0b9")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "J1")
 					(unit 1)
@@ -15470,7 +15470,7 @@
 			(uuid "8693eea2-3d06-408e-be7b-968843bcaa77")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR061")
 					(unit 1)
@@ -15536,7 +15536,7 @@
 			(uuid "ebd754b8-6059-4e61-b9d1-cf6e245a6dee")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR082")
 					(unit 1)
@@ -15806,7 +15806,7 @@
 			(uuid "ead7d82b-c57b-4299-b40f-af040bb75906")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D16")
 					(unit 1)
@@ -15885,7 +15885,7 @@
 			(uuid "24f717a7-f6d7-4ba0-a02e-1ba4bccc4c95")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C17")
 					(unit 1)
@@ -15951,7 +15951,7 @@
 			(uuid "97d671bf-5883-495a-adf5-fa890f39f7c5")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR035")
 					(unit 1)
@@ -16123,7 +16123,7 @@
 			(uuid "e0500e8d-301e-49c5-a58e-5d0a73c45833")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R4")
 					(unit 1)
@@ -16189,7 +16189,7 @@
 			(uuid "8ff740d0-7280-446b-ba0a-abe425c81d47")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR076")
 					(unit 1)
@@ -16255,7 +16255,7 @@
 			(uuid "aa2f41b6-f0b1-4ada-b798-c7a8946fee0b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR039")
 					(unit 1)
@@ -16321,7 +16321,7 @@
 			(uuid "6c823633-1607-4b2a-85ed-4e9aa273772f")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR013")
 					(unit 1)
@@ -16475,7 +16475,7 @@
 			(uuid "ec569295-f949-46d9-adbe-17e7dc0fd35a")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR014")
 					(unit 1)
@@ -16563,7 +16563,7 @@
 			(uuid "2072867c-48f2-4c1c-a92b-253ecf5ec354")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C13")
 					(unit 1)
@@ -16629,7 +16629,7 @@
 			(uuid "54305940-7b9b-4f40-8cf3-2eed7ccc4d09")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR066")
 					(unit 1)
@@ -16781,7 +16781,7 @@
 			(uuid "fb12a596-dff0-4526-bb9e-b9bd7aa0b8c4")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR024")
 					(unit 1)
@@ -16847,7 +16847,7 @@
 			(uuid "48891c6f-5f80-42db-a8d0-2d1485ce9a40")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR079")
 					(unit 1)
@@ -16933,7 +16933,7 @@
 			(uuid "a4d628f5-42f6-4b97-95d1-c17505a18c12")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R2")
 					(unit 1)
@@ -17019,7 +17019,7 @@
 			(uuid "e85acf21-242a-4fe4-b1a1-1bd666733ab8")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R25")
 					(unit 1)
@@ -17297,7 +17297,7 @@
 			(uuid "8381d498-7fe8-4b6e-8eda-383db02355c4")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R11")
 					(unit 1)
@@ -17460,7 +17460,7 @@
 			(uuid "30a00ef1-0d1e-4d5c-b39e-499212612fe0")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR045")
 					(unit 1)
@@ -17548,7 +17548,7 @@
 			(uuid "f1cd1a10-f9b9-4966-a340-75d229aa70d0")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R19")
 					(unit 1)
@@ -17634,7 +17634,7 @@
 			(uuid "d03f177b-da82-4825-a1a7-42cba0dd08d1")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R6")
 					(unit 1)
@@ -17700,7 +17700,7 @@
 			(uuid "145c2fee-abf8-4754-ab1f-75b7c22a8737")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR040")
 					(unit 1)
@@ -17785,7 +17785,7 @@
 			(uuid "dd948e6c-1fd2-438d-a500-052441f5a87e")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C11")
 					(unit 1)
@@ -17873,7 +17873,7 @@
 			(uuid "5f305fe5-f000-4515-a31d-c6260d6ec0ba")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R18")
 					(unit 1)
@@ -17961,7 +17961,7 @@
 			(uuid "0ecdcef2-2294-4aa8-a3bb-302f699c6025")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "C5")
 					(unit 1)
@@ -18027,7 +18027,7 @@
 			(uuid "d48526e7-e60d-496e-a202-35891babd2ec")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR036")
 					(unit 1)
@@ -18148,7 +18148,7 @@
 			(uuid "25f29612-60fd-48be-81d8-eca89ce718ff")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "U2")
 					(unit 2)
@@ -18214,7 +18214,7 @@
 			(uuid "3cfe99b5-52d0-4d48-9038-b92ea170c9a2")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR034")
 					(unit 1)
@@ -18391,7 +18391,7 @@
 			(uuid "036f8bb7-e23b-4f6c-8812-76513fda03d1")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R20")
 					(unit 1)
@@ -18479,7 +18479,7 @@
 			(uuid "e571e440-4379-457d-abc6-bcd6c0d74be2")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R9")
 					(unit 1)
@@ -18568,7 +18568,7 @@
 			(uuid "4459288e-5bf7-4ed2-b7b7-cbc99ef12b87")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D8")
 					(unit 1)
@@ -18665,7 +18665,7 @@
 			(uuid "d53adca9-c6bc-48b8-bd76-00f9e53f7224")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D4")
 					(unit 1)
@@ -18731,7 +18731,7 @@
 			(uuid "875076b5-481e-4b10-a460-35e8d71363c3")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR05")
 					(unit 1)
@@ -18797,7 +18797,7 @@
 			(uuid "3ad66bbc-70dc-4c2e-b603-ecca0ff4207e")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR033")
 					(unit 1)
@@ -18863,7 +18863,7 @@
 			(uuid "4812b081-095a-49bb-b326-9587c410f6fc")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR012")
 					(unit 1)
@@ -18929,7 +18929,7 @@
 			(uuid "ca6005d6-0a00-482a-ae04-f9a706830462")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR032")
 					(unit 1)
@@ -18995,7 +18995,7 @@
 			(uuid "36fe49ee-e042-405f-ac29-03c48c982ce2")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR041")
 					(unit 1)
@@ -19061,7 +19061,7 @@
 			(uuid "2050c8c9-6496-45c0-b35f-8fa45ec608f8")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR046")
 					(unit 1)
@@ -19149,7 +19149,7 @@
 			(uuid "c50cd0d1-8a88-40c5-922d-4022b8a58596")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R7")
 					(unit 1)
@@ -19295,7 +19295,7 @@
 			(uuid "6427364f-c9f0-4c7b-a5ee-b96c64f049ed")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR017")
 					(unit 1)
@@ -19361,7 +19361,7 @@
 			(uuid "e04c9ffc-348e-4d46-b874-f7376499a9f6")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR022")
 					(unit 1)
@@ -19427,7 +19427,7 @@
 			(uuid "212e761c-da42-4edf-868c-68148b55e849")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#FLG03")
 					(unit 1)
@@ -19493,7 +19493,7 @@
 			(uuid "dfa2fede-3d8e-40cc-828f-ac06a06dbc9d")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR074")
 					(unit 1)
@@ -19581,7 +19581,7 @@
 			(uuid "defbcacd-d96a-41df-8e19-ca50ca5ffcd4")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R15")
 					(unit 1)
@@ -19667,7 +19667,7 @@
 			(uuid "b67db858-73cc-4709-91ca-298534e69d04")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R22")
 					(unit 1)
@@ -19754,7 +19754,7 @@
 			(uuid "634b3e9a-35ee-40da-a9af-9583fa887add")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "SW2")
 					(unit 1)
@@ -19827,7 +19827,7 @@
 			)
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "H3")
 					(unit 1)
@@ -19915,7 +19915,7 @@
 			(uuid "617e2f15-0c47-4581-9dfd-983342b4398d")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R13")
 					(unit 1)
@@ -19981,7 +19981,7 @@
 			(uuid "07c94a21-9e9d-4c0e-a4c0-6b53a3dd36db")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR026")
 					(unit 1)
@@ -20047,7 +20047,7 @@
 			(uuid "ef2711b7-7838-43ca-adc0-16cd56227f57")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR053")
 					(unit 1)
@@ -20113,7 +20113,7 @@
 			(uuid "558af6d0-16c3-44b5-b695-420ddd020d30")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR08")
 					(unit 1)
@@ -20245,7 +20245,7 @@
 			(uuid "99e3f6a2-96ec-4ebc-ac0c-ed2e6531b2d9")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR048")
 					(unit 1)
@@ -20342,7 +20342,7 @@
 			(uuid "9f8f48de-e685-4efd-95f4-f8d5a80afe3b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D11")
 					(unit 1)
@@ -20407,7 +20407,7 @@
 			(uuid "b5bd033f-4564-40f1-b1c7-b2919d0ce9a9")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR038")
 					(unit 1)
@@ -20504,7 +20504,7 @@
 			(uuid "df8cad74-38ea-437a-b812-d4c3ce711f8b")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D5")
 					(unit 1)
@@ -20611,7 +20611,7 @@
 			(uuid "177e7030-51bd-4ca5-b107-7a43fc9df68f")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "J7")
 					(unit 1)
@@ -20697,7 +20697,7 @@
 			(uuid "bba7ba7b-121b-4315-8677-174caddc6fee")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R16")
 					(unit 1)
@@ -20905,7 +20905,7 @@
 			(uuid "ce8f85bf-7f52-413f-884f-3c5bcc262103")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "JP2")
 					(unit 1)
@@ -21199,7 +21199,7 @@
 			(uuid "cab9d1dd-af6b-4ea6-b6be-49a6d9961180")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR050")
 					(unit 1)
@@ -21296,7 +21296,7 @@
 			(uuid "9811a2bc-5bc4-4def-9c0a-c97399bf41cc")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "D9")
 					(unit 1)
@@ -21362,7 +21362,7 @@
 			(uuid "bafa7dea-b38b-4a01-9bec-2193381b6dae")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR037")
 					(unit 1)
@@ -21428,7 +21428,7 @@
 			(uuid "7dd00481-f5a3-446d-b504-94034e45c87f")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR016")
 					(unit 1)
@@ -21591,7 +21591,7 @@
 			(uuid "50c60790-941f-47a9-b3e7-7f627d148722")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R3")
 					(unit 1)
@@ -21657,7 +21657,7 @@
 			(uuid "c8148704-2558-4b57-be26-dbf9c2e47412")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR075")
 					(unit 1)
@@ -21743,7 +21743,7 @@
 			(uuid "62704a2d-baa0-4059-b20f-fbce39783928")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R21")
 					(unit 1)
@@ -21816,7 +21816,7 @@
 			)
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "H2")
 					(unit 1)
@@ -21882,7 +21882,7 @@
 			(uuid "e771e39a-9cad-4d14-8187-1f9eafc0a44d")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "#PWR09")
 					(unit 1)
@@ -21968,7 +21968,7 @@
 			(uuid "d8d235a8-7789-495b-98be-c4219cd8f731")
 		)
 		(instances
-			(project "ESP8266-Sentinel-Kinetic-Wireless-Dongle"
+			(project "ESP32-Sentinel-Kinetic-Wireless-Dongle"
 				(path "/263bb0f9-3858-495c-8bcf-b65dad96e4de"
 					(reference "R23")
 					(unit 1)

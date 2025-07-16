@@ -555,7 +555,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP8266-Sentinel-Kinetic-Wireless-Dongle.kicad_pro",
+    "filename": "ESP32-Sentinel-Kinetic-Wireless-Dongle.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -621,7 +621,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ESP8266-Sentinel-Kinetic-Wireless-Dongle.step",
+      "step": "../../../Downloads/ESP32-Sentinel-Kinetic-Wireless-Dongle.step",
       "svg": "",
       "vrml": ""
     },
